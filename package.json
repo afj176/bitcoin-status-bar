@@ -1,0 +1,23 @@
+{
+  "name": "bitcoin-status-bar",
+  "main": "./lib/bitcoin-status-bar",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "repository": "https://github.com/afj176/bitcoin-status-bar",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
+    "currency-symbol-map": "^2.0.2"
+  }
+}

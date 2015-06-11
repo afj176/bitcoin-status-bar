@@ -1,0 +1,30 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle Bitcoin Status Bar'
+      'command': 'bitcoin-status-bar:toggle'
+    },
+    {
+      'label': 'Refresh Bitcoin Status Bar'
+      'command': 'bitcoin-status-bar:refresh'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Bitcoin Status Bar'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'bitcoin-status-bar:toggle'
+        },
+        {
+          'label': 'Refresh'
+          'command': 'bitcoin-status-bar:refresh'
+        }
+      ]
+    ]
+  }
+]
