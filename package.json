@@ -1,7 +1,7 @@
 {
   "name": "bitcoin-status-bar",
   "main": "./lib/bitcoin-status-bar",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A short description of your package",
   "keywords": [],
   "consumedServices": {
