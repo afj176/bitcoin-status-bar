@@ -1,7 +1,7 @@
 {
   "name": "bitcoin-status-bar",
   "main": "./lib/bitcoin-status-bar",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Bitcoin status bar for Atom.io editor",
   "keywords": [],
   "consumedServices": {
