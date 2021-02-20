@@ -63,14 +63,14 @@ class BitcoinView extends HTMLDivElement
     has = false
     bar = document.getElementsByTagName "bitcoin-status-bar"
     if bar != null
-      if bar.item() != null
+      if bar.item(0) != null
         has = true
     return has
 
   detach: ->
     bar = document.getElementsByTagName "bitcoin-status-bar"
     if bar != null
-      if bar.item() != null
+      if bar.item(0) != null
         el = bar[0]
         parent = el.parentNode
         if parent != null

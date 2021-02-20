@@ -28,7 +28,6 @@ module.exports =
     bitcoin = null
 
   consumeStatusBar: (statusBar) ->
-    console.log "consumeStatusBar"
     BitcoinView = require './bitcoin-view'
     bitcoin = new BitcoinView()
     bitcoin.initialize(statusBar)
